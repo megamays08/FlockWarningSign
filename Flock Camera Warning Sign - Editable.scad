@@ -118,7 +118,7 @@ difference() {
         }
     }
 
-    // --- 6. Top Mounting Hole ---
+    // --- 6. Mounting Hole (Top) ---
     translate([width/2, height - 28, -1])
         cylinder(d=hole_diameter, h=thickness + text_height + 5, $fn=60);
 }
